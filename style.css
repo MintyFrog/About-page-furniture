@@ -24,26 +24,55 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 36px 24px 36px 24px;
-    background-color: #8eb6bd;
+    background-color: #9cb9be;
     margin-bottom: 50px;
 }
 
 .header-logo{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .header-links a{
+    font-size: 20px;
     text-decoration: none;
     color: black;
     margin-right: 24px;
 }
 
+/*Content style*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 50px;
+}
+
+.content-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content-text{
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
 /*Footer style*/
 .footer{
     margin-top: auto;
     padding: 16px;
-    background-color: #8eb6bd;
+    background-color: #9cb9be;
 }
 
 .footer-text{
