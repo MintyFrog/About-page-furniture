@@ -9,6 +9,9 @@
 body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 img{
@@ -36,3 +39,14 @@ img{
     margin-right: 24px;
 }
 
+/*Footer style*/
+.footer{
+    margin-top: auto;
+    padding: 16px;
+    background-color: #8eb6bd;
+}
+
+.footer-text{
+    font-size: 18px;
+    text-align: center;
+}
